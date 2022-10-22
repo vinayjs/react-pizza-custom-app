@@ -7,7 +7,7 @@ import Mushroom from "../assets/Mushroom.png";
 import Basil from "../assets/Basil.png";
 import Tomato from "../assets/Tomato.png";
 import { motion } from "framer-motion";
-import { useNavigate } from "'react-dom'";
+import {useNavigate} from "react-router-dom";
 
 export default function Customize({ ingredients, setIngredients }) {
   let history = useNavigate();

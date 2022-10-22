@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-dom";
+import { useNavigate } from "react-router-dom";
 import Pizzaman from "../assets/PizzaMan.png";
 
 export default function Checkout({ ingredients }) {
-  const navigate = useNavigate();
+  let navigate = useNavigate();
   const [success, setSuccess] = useState(false);
 
   return (
