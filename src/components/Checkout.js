@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-dom";
 import Pizzaman from "../assets/PizzaMan.png";
 
 export default function Checkout({ ingredients }) {
