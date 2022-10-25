@@ -26,7 +26,7 @@ export default function Checkout({ ingredients }) {
           })}
           <button
             className="proceedToCheckout"
-            onClick={() => navigate.push("/")}
+            onClick={() => navigate("/")}
           >
             Go Back
           </button>

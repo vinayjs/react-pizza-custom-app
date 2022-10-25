@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 export default function Customize({ ingredients, setIngredients }) {
-  let history = useNavigate();
+  let navigate = useNavigate();
   const onChange = (event, name) => {
     let newIngredients = JSON.parse(JSON.stringify(ingredients));
     newIngredients[name] = event;
@@ -159,7 +159,7 @@ export default function Customize({ ingredients, setIngredients }) {
           />
           <span class="checkmark"></span>
         </label>
-        <button onClick={()=>history.push('/checkout')} className="proceedToCheckout">
+        <button onClick={()=> navigate('/checkout')} className="proceedToCheckout">
             Proceed to Checkout
         </button>
       </div>
