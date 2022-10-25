@@ -1,4 +1,6 @@
-# pizzacustomization app using react js : [https://react-pizzacustomapp.netlify.app/]
+# pizzacustomization app using react js
+
+## link: [https://react-pizzacustomapp.netlify.app/]
 
 ## Getting Started with Create React App
 
