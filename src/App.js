@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Customize from "./components/Customize";
 import Checkout from "./components/Checkout";
 
+
 function App() {
   const [ingredients, setIngredients] = useState({
     basil: false,
