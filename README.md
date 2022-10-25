@@ -1,4 +1,4 @@
-# you can reach out to : [https://react-pizzacustomapp.netlify.app/]
+# pizzacustomization app using react js : [https://react-pizzacustomapp.netlify.app/]
 
 ## Getting Started with Create React App
 
